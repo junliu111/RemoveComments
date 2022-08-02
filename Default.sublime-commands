@@ -1,0 +1,6 @@
+[
+	{
+		"caption": "Remove All Comments",
+		"command": "remove_file_comments"
+	}
+]

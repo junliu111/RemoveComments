@@ -1,0 +1,8 @@
+[
+    {
+        "keys": [
+            "super+alt+shift+r"
+        ],
+        "command": "remove_file_comments"
+    },
+]
