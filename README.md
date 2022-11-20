@@ -16,6 +16,15 @@ Sublime Text plugin: removes all comments in the current file based on syntax hi
 Download or clone the contents of this repository to a folder named exactly as the package name into the Packages/ folder of Sublime Text.
 
 ## Keybindings
-Located under Sublime Text > Preferences > Package Settings > Remove Comments > Key Bindings — User
+Add your own key bindings: Preferences > Package Settings > Remove Comments > Key Bindings — User
 
-- `ctrl+alt+shift+r` : remove all comments in the current file.
+For example, if you want to use "ctrl+alt+shift+r" as the shortcut, please add the following to the opened file.
+
+```
+    {
+        "keys": [
+            "ctrl+alt+shift+r"
+        ],
+        "command": "remove_file_comments"
+    },
+```
