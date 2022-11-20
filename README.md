@@ -20,6 +20,7 @@ Add your own key bindings: Preferences > Package Settings > Remove Comments > Ke
 
 For example, if you want to use "ctrl+alt+shift+r" as the shortcut, please add the following to the opened file.
 
+
 ```
     {
         "keys": [
