@@ -15,11 +15,16 @@ Sublime Text plugin: removes all comments in the current file based on syntax hi
 
 Download or clone the contents of this repository to a folder named exactly as the package name into the Packages/ folder of Sublime Text.
 
+## How to use
+
+1. Open a command palette (Ctrl+Shift+P or Cmd+Shift+P)
+
+2. Search for the command: "Remove All Comments".
+
 ## Keybindings
 Add your own key bindings: Preferences > Package Settings > Remove Comments > Key Bindings — User
 
 For example, if you want to use "ctrl+alt+shift+r" as the shortcut, please add the following to the opened file.
-
 
 ```
     {
